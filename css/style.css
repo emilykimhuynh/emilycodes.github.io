@@ -1,0 +1,73 @@
+/**************************************
+* Colors
+**************************************/
+/**************************************
+* Page Styles
+**************************************/
+html, body {
+  background: #ffffff; }
+
+/**************************************
+* Headings
+**************************************/
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: #333; }
+
+/**************************************
+* Links, text, etc
+**************************************/
+a {
+  color: #30a2a2;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+  transition: .3s; }
+  a .fa {
+    font-size: small; }
+  a:hover {
+    color: #eb7171;
+    text-decoration: none;
+    transition: .3s; }
+
+/**************************************
+* Page Sections
+**************************************/
+.intro {
+  margin-top: 25vh; }
+  .intro img {
+    width: 100%;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
+  .intro .profile {
+    margin-top: 3vh;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.08); }
+  .intro .lead {
+    font-family: 'Avenir', 'Helvetica Neue';
+    font-size: medium;
+    color: #868686; }
+
+.social {
+  margin-top: 10vh;
+  text-align: center; }
+  .social a {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid #b7b7b7;
+    color: #b7b7b7;
+    text-decoration: none; }
+    .social a i {
+      font-size: medium; }
+    .social a:hover {
+      color: #ffffff;
+      background: #eb7171;
+      border: 1px solid #eb7171; }
+
+/**************************************
+* Mobile first design
+**************************************/
+/* Smartphones (portrait) ************/
+/* iPads (portrait) ******************/
