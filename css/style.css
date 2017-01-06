@@ -13,6 +13,7 @@ html, body {
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
+  font-size: 6vw;
   color: #333; }
 
 /**************************************
@@ -23,7 +24,7 @@ a {
   border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
   transition: .3s; }
   a .fa {
-    font-size: small; }
+    font-size: 2vh; }
   a:hover {
     color: #eb7171;
     text-decoration: none;
@@ -33,34 +34,36 @@ a {
 * Page Sections
 **************************************/
 .intro {
-  margin-top: 25vh; }
+  margin-top: 3vh;
+  padding: 1vw; }
   .intro img {
     width: 100%;
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
   .intro .profile {
     margin-top: 3vh;
-    height: 100%;
-    border-right: 1px solid rgba(0, 0, 0, 0.08); }
+    margin-bottom: 3vh;
+    height: 100%; }
   .intro .lead {
     font-family: 'Avenir', 'Helvetica Neue';
-    font-size: medium;
+    font-size: 2.25vh;
     color: #868686; }
 
 .social {
-  margin-top: 10vh;
+  margin: 3vh 0;
   text-align: center; }
   .social a {
-    width: 30px;
-    height: 30px;
-    padding: 5px;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 0 5px;
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 50px;
     border: 1px solid #b7b7b7;
     color: #b7b7b7;
     text-decoration: none; }
     .social a i {
-      font-size: medium; }
+      font-size: 50px; }
     .social a:hover {
       color: #ffffff;
       background: #eb7171;
@@ -69,5 +72,53 @@ a {
 /**************************************
 * Mobile first design
 **************************************/
-/* Smartphones (portrait) ************/
-/* iPads (portrait) ******************/
+/*  desktop */
+@media only screen and (min-width: 992px) {
+  a .fa {
+    font-size: 1.25vw; }
+  .intro {
+    margin-top: 20vh;
+    padding: 0; }
+    .intro h1 {
+      font-size: 2em; }
+    .intro img {
+      padding: 0 10%; }
+    .intro .profile {
+      border-right: 1px solid rgba(0, 0, 0, 0.08); }
+    .intro .lead {
+      font-size: 1.1em;
+      margin: 2.5vh 0; }
+  .social a {
+    width: 40px;
+    height: 40px;
+    padding: 9px;
+    margin: 0 1px;
+    border-radius: 20px; }
+    .social a i {
+      font-size: 20px; } }
+
+/* widescreen */
+@media only screen and (min-width: 1440px) {
+  .intro h1 {
+    font-size: 3em; }
+  .intro .lead {
+    font-size: 1.5em; } }
+
+/* extra widescreen, what am i even doing */
+@media only screen and (min-width: 2560px) {
+  .intro .profile {
+    padding: 2vh; }
+  .intro .intro-text {
+    padding: 3vh; }
+    .intro .intro-text h1 {
+      font-size: 2.5vw; }
+    .intro .intro-text .lead {
+      font-size: 1.5vw; }
+  .social a {
+    width: 100px;
+    height: 100px;
+    padding: 23px;
+    margin: 0 2px;
+    border-radius: 50px; }
+    .social a i {
+      font-size: 50px; } }
