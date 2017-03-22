@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emily Huynh</title>
-    <link>http://emilycodes.github.io/index.xml</link>
-    <description>Recent content on Emily Huynh</description>
+    <title>Calendars on Emily Huynh</title>
+    <link>http://emilycodes.github.io/calendar/index.xml</link>
+    <description>Recent content in Calendars on Emily Huynh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Mar 2017 23:34:47 -0500</lastBuildDate>
-    <atom:link href="http://emilycodes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://emilycodes.github.io/calendar/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Calendar</title>
@@ -15,15 +15,6 @@
       <pubDate>Sun, 19 Mar 2017 23:34:47 -0500</pubDate>
       
       <guid>http://emilycodes.github.io/calendar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>index</title>
-      <link>http://emilycodes.github.io/blog/</link>
-      <pubDate>Mon, 30 Jan 2017 11:35:46 -0600</pubDate>
-      
-      <guid>http://emilycodes.github.io/blog/</guid>
       <description></description>
     </item>
     
