@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photos on Emily Huynh</title>
+    <link>http://emilycodes.github.io/photos/index.xml</link>
+    <description>Recent content in Photos on Emily Huynh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Apr 2017 21:38:32 -0500</lastBuildDate>
+    <atom:link href="http://emilycodes.github.io/photos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>index</title>
+      <link>http://emilycodes.github.io/photos/</link>
+      <pubDate>Sun, 09 Apr 2017 21:38:32 -0500</pubDate>
+      
+      <guid>http://emilycodes.github.io/photos/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

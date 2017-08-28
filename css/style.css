@@ -38,8 +38,9 @@ a {
   padding: 1vw; }
   .intro img {
     width: 100%;
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
+    /* -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
+    /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); } */
+  }
   .intro .profile {
     margin-top: 3vh;
     margin-bottom: 3vh;
@@ -81,11 +82,11 @@ a {
     border-radius: 25px; }
     .social a i {
       font-size: 25px; } }
-
 /*  desktop */
 @media only screen and (min-width: 992px) {
   a .fa {
     font-size: .8em; }
+
   .intro {
     margin-top: 20vh;
     padding: 0; }
@@ -98,6 +99,7 @@ a {
     .intro .lead {
       font-size: 1.1em;
       margin: 2.5vh 0; }
+
   .social a {
     width: 40px;
     height: 40px;
@@ -106,14 +108,12 @@ a {
     border-radius: 20px; }
     .social a i {
       font-size: 20px; } }
-
 /* widescreen */
 @media only screen and (min-width: 1440px) {
   .intro h1 {
     font-size: 3em; }
   .intro .lead {
     font-size: 1.5em; } }
-
 /* extra widescreen, what am i even doing */
 @media only screen and (min-width: 2560px) {
   .intro .profile {
@@ -124,6 +124,7 @@ a {
       font-size: 2.5vw; }
     .intro .intro-text .lead {
       font-size: 1.5vw; }
+
   .social a {
     width: 100px;
     height: 100px;
@@ -132,3 +133,44 @@ a {
     border-radius: 50px; }
     .social a i {
       font-size: 50px; } }
+#slideshow {
+  position: relative;
+  min-height: 100%; }
+
+#slideshow > div {
+  position: absolute;
+  min-height: 100%; }
+
+.grid-item {
+  width: 20%;
+  padding: 5px; }
+
+.grid-item img {
+  max-width: 100%; }
+
+.grid-item--width2 {
+  width: 400px; }
+
+/* ---- grid ---- */
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/* ---- grid-item ---- */
+.grid-sizer,
+.grid-item {
+  width: 25%; }
+
+/*.grid-item {
+  height: 120px;
+  float: left;
+}*/
+.grid-item--width2 {
+  width: 50%; }
+
+.grid-item--width3 {
+  width: 75%; }
+
+/*# sourceMappingURL=style.css.map */

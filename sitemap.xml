@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://emilycodes.github.io/photos/</loc>
+    <lastmod>2017-04-09T21:38:32-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://emilycodes.github.io/calendar/</loc>
     <lastmod>2017-03-19T23:34:47-05:00</lastmod>
   </url>
@@ -25,7 +30,13 @@
   
   <url>
     <loc>http://emilycodes.github.io/</loc>
-    <lastmod>2017-03-19T23:34:47-05:00</lastmod>
+    <lastmod>2017-04-09T21:38:32-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://emilycodes.github.io/photos/</loc>
+    <lastmod>2017-04-09T21:38:32-05:00</lastmod>
     <priority>0</priority>
   </url>
   
